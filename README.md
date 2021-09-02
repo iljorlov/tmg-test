@@ -1,8 +1,8 @@
 # Тестовое задание для TMG
 
 ##task1_react
->> npm i
->> npm run start
+### `npm i`
+### `nm run start`
 
 ##task2_optimization
 
