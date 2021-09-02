@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.searchbar-container{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.searchbar-container input{
+  margin: 0.5rem 0.25rem;
+  width: 30%;
+  height: 100%;
+}
+.searchbar-container p{
+  margin: 0.5rem 0.25rem;
+  height: 100%;
+}
+.searchbar-container button{
+  margin: 0.5rem 0.25rem;
+  padding: 0.1rem 0.75rem;
+  border-radius: 0px;
+  border: 1px solid gray;
+  height: 100%;
+}
+
+#input-area {
+  height: 100%;
+  margin: 0.5rem 0.25rem;
+  max-height: 100%;
+  width: 15rem;
+  border: 1px solid black;
+}
+
+.input-wrong{
+  color: red;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0.5rem 1rem;
+}
+
+tr, td, th {
+  text-align: center;
+}
+
+.table-text-field{
+  text-align: left;
+}
+
+.table-container{
+  border: 1px solid black;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+
+
+@media screen and (max-width: 468px) {
+  .App{
+    width: 100%;
+    min-width: 200px;
+    overflow: scroll;
+    padding: 0.5rem;
+  }
+  #input-area{
+    width: 100%;
+  }
+  .table-container, .searchbar-container{
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .table-container{
+    width: 100%;
+  }
+  .table-container td{
+    max-width: 50px;
+  }
+  .table-container table{
+    overflow: hidden;
+  }
+  .table-text-field{
+    min-width: 150px;
+    overflow: scroll;
+  }
+  .searchbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: visible;
+  }  
+}
+
+@media screen and (max-width: 340px) {
+  .table-text-field{
+    min-width: 100px;
+  }
+}

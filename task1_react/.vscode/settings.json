@@ -1,0 +1,10 @@
+{
+    "emmet.preferences": {
+    
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+}
